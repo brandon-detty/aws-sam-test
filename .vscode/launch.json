@@ -12,7 +12,8 @@
       "lambda": {
         "payload": {},
         "environmentVariables": {}
-      }
+      },
+      "sam": { "buildArguments": ["-u"] }
     }
   ]
 }
