@@ -21,6 +21,10 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1h6b52zaeijqq"
+s3_prefix = "sam-test"
+region = "us-west-2"
+image_repositories = []
 
 [default.package]
 [default.package.parameters]
